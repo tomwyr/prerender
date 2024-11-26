@@ -1,0 +1,17 @@
+name: prerender
+description: "A new Flutter package project."
+version: 0.0.1
+homepage: https://github.com/tomwyr/prerender
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
