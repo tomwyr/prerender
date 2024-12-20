@@ -1,6 +1,6 @@
 name: prerender
 description: "A Flutter widget for building layouts based on other widgets' dimensions."
-version: 0.1.0
+version: 1.0.0
 homepage: https://github.com/tomwyr/prerender
 
 environment:

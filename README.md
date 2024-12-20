@@ -22,7 +22,7 @@ Rebuilding the tree with a different target widget will cause the `builder` to b
 Add the dependency to your `pubspec.yaml`:
 
 ```yaml
-prerender: ^0.1.0
+prerender: ^1.0.0
 ```
 
 Wrap the widget tree that depends on some widget's layout:

@@ -24,6 +24,7 @@ typedef PrerenderBuilder = Widget Function(
 /// - `null` (default) - both width and height
 /// - `Axis.horizontal` - width only
 /// - `Axis.vertical` - height only
+/// 
 /// Restricting measurement to only one axis can be useful if intrinsic
 /// dimension of the other one cannot be calculated. In that case, skipped axis
 /// will be replaced by maximum value(s) allowed by parent's constraints.
@@ -35,8 +36,13 @@ class Prerender extends RenderObjectWidget with _SingleChildRenderObjectWidget {
     required this.builder,
   });
 
+  /// The widget to be measured.
   final Widget target;
+
+  /// The axis along which to measure the widget.
   final Axis? axis;
+
+  /// The builder function to create the final widget using the measured size.
   final PrerenderBuilder builder;
 
   @override
