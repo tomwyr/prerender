@@ -1,5 +1,5 @@
-import 'package:example/examples/responsive_sheet.dart';
 import 'package:example/examples/expanding_text.dart';
+import 'package:example/examples/responsive_sheet.dart';
 import 'package:example/examples/sticking_footer.dart';
 import 'package:flutter/material.dart';
 
@@ -26,6 +26,7 @@ class _ExamplesAppState extends State<ExamplesApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           centerTitle: false,
