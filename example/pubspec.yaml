@@ -1,5 +1,5 @@
 name: example
-description: "A new Flutter project."
+description: "Example usage of the Prerender widget."
 publish_to: "none"
 
 environment:

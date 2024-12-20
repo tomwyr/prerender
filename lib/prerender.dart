@@ -31,8 +31,8 @@ class Prerender extends RenderObjectWidget with _SingleChildRenderObjectWidget {
   const Prerender({
     super.key,
     required this.target,
-    required this.builder,
     this.axis,
+    required this.builder,
   });
 
   final Widget target;

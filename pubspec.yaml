@@ -1,6 +1,6 @@
 name: prerender
-description: "A new Flutter package project."
-version: 0.0.1
+description: "A widget enabling access to dimensions of other widgets during the build phase."
+version: 0.1.0
 homepage: https://github.com/tomwyr/prerender
 
 environment:
